@@ -2,31 +2,31 @@ import React from 'react';
 
 const TOOL_LOGOS: Record<string, string> = {
   python: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
-  sql: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", // Using MySQL as generic SQL logo
-  "power bi": "https://img.icons8.com/color/48/power-bi.png", // Devicon doesn't have Power BI, using Icons8 or similar
+  sql: "https://www.svgrepo.com/show/331760/sql-database-generic.svg",
+  "power bi": "https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg",
   "sap erp": "https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg",
   r: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/r/r-original.svg",
-  excel: "https://img.icons8.com/color/48/microsoft-excel-2019--v1.png",
+  excel: "https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg",
   "power automate": "https://upload.wikimedia.org/wikipedia/commons/4/42/Microsoft_Power_Automate.svg",
   n8n: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/n8n/n8n-original.svg",
   illustrator: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg",
   autocad: "https://upload.wikimedia.org/wikipedia/commons/f/f7/AutoCAD_logo_icon.svg",
-  word: "https://img.icons8.com/color/48/microsoft-word-2019--v2.png",
-  powerpoint: "https://img.icons8.com/color/48/microsoft-powerpoint-2019--v1.png",
-  matlab: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg",
+  word: "https://upload.wikimedia.org/wikipedia/commons/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg",
+  powerpoint: "https://upload.wikimedia.org/wikipedia/commons/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg",
+  matlab: "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
   neo4j: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/neo4j/neo4j-original.svg",
-  "arena simulation": "https://asset.brandfetch.io/idO4d_k0h8/id0w2_Nn1-.png",
+  "arena simulation": "https://www.rockwellautomation.com/content/dam/rockwell-automation/sites/downloads/logos/arena-simulation-software-logo.png", // Attempting a more direct source, or we could use a generic 'simulation' icon if this fails.
   tableau: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tableau/tableau-original.svg",
-  "apache superset": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apache/apache-original.svg",
+  "apache superset": "https://raw.githubusercontent.com/apache/superset/master/superset-frontend/src/assets/images/superset-logo-horiz.png",
   azure: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg",
   aws: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
   jira: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
-  "ms project": "https://img.icons8.com/color/48/microsoft-project.png",
+  "ms project": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Microsoft_Office_Project_%282019%E2%80%93present%29.svg",
   "next.js": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
   git: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
-  visio: "https://img.icons8.com/color/48/microsoft-visio-2019.png",
-  powerquery: "https://img.icons8.com/color/48/microsoft-excel-2019--v1.png",
-  powerpivot: "https://img.icons8.com/color/48/microsoft-excel-2019--v1.png"
+  visio: "https://upload.wikimedia.org/wikipedia/commons/4/43/Microsoft_Visio_2019-present.svg",
+  powerquery: "https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg", // Power Query shares Excel branding often
+  powerpivot: "https://upload.wikimedia.org/wikipedia/commons/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg" // Power Pivot shares Excel branding often
 };
 
 const FallbackIcon: React.FC<{ toolName: string }> = ({ toolName }) => (
