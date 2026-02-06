@@ -1,80 +1,139 @@
-
 {
   "name": "Mahmood Alshahahdi",
-  "title": "Industrial Engineer / Data Analyst",
-  "location": "Stuttgart, Germany",
-  "summary": "Dynamic and resourceful professional with a background in Industrial Engineering. Specialized in process optimization, data-driven decision-making, and efficiency innovation. Currently targeting Process/Data Analyst roles with expertise in SQL, Python/R, and advanced KPI dashboarding.",
+  "title": "Industrial Engineer | Data Analytics & Digital Transformation",
+  "location": "Reutlingen, Germany",
+  "summary": "Motivated Industrial Engineer with a strong focus on Data Analytics, Automation, and Process Management. Experienced in building end-to-end data solutions, automating complex workflows, and developing KPI-driven dashboards in industrial environments. Passionate about creating scalable, data-driven systems that improve efficiency and support sustainable technical progress.",
   "stats": {
-    "yearsExperience": 4,
-    "certificatesCount": 8,
-    "projectsCompleted": 15
+    "yearsExperience": 7,
+    "certificatesCount": 5,
+    "projectsCompleted": 12
   },
   "contact": {
-    "email": "Mahmoud.shahahdi98@icloud.com",
-    "phone": "+4915560019198",
-    "linkedin": "linkedin.com/in/mahmood-alshahahdi",
-    "github": "github.com/mahmood-ash"
+    "email": "mahmoud.shahahdi98@icloud.com",
+    "phone": "+49 155 60019198",
+    "linkedin": "linkedin.com/in/mahmood-alshahahdi-73aa4a181",
+    "github": "mahmoodalshahahdi.github.io/Index-svg.html"
   },
   "languages": [
-    { "name": "Arabic", "level": "Native" },
-    { "name": "German", "level": "B2" },
-    { "name": "English", "level": "C2" },
-    { "name": "Turkish", "level": "Conversational" }
+    {
+      "name": "Arabic",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Native"
+    },
+    {
+      "name": "German",
+      "level": "Advanced"
+    },
+    {
+      "name": "Turkish",
+      "level": "Good"
+    }
   ],
   "tools": [
-    "Python", "SQL", "Illustrator", "SAP ERP", "Arena Simulation", 
-    "Excel", "Word", "PowerPoint", "AutoCAD", "Power BI", "R", 
-    "MATLAB", "Neo4j", "n8n", "Power Automate"
+    "Python",
+    "SQL",
+    "R",
+    "Power BI",
+    "Tableau",
+    "Apache Superset",
+    "Azure",
+    "AWS",
+    "JIRA",
+    "MS Project",
+    "AutoCAD",
+    "Arena Simulation",
+    "Next.js",
+    "Git",
+    "PowerQuery",
+    "PowerPivot",
+    "Visio"
   ],
   "certifications": [
-    "SAP ERP Certified Associate",
-    "AutoCAD Professional",
-    "Supply Chain Management Specialist",
-    "Quality Management (Six Sigma Green Belt)"
+    "Python for Data Science & Automation",
+    "SQL Database Design & Query Optimization",
+    "Power BI Business Data Analytics",
+    "AWS Cloud Practitioner (Fundamentals)",
+    "Project Management Fundamentals"
   ],
   "education": [
     {
-      "school": "German Jordanian University (GJU)",
-      "degree": "B.Sc. in Industrial Engineering",
-      "period": "2018 - 2023",
-      "details": "Major in Production Systems & Logistics."
+      "school": "German Jordanian University",
+      "degree": "Bachelor of Science in Industrial Engineering",
+      "period": "2020 - 2025",
+      "details": "Amman, Jordan"
     },
     {
-      "school": "Hochschule Osnabrück",
-      "degree": "Exchange Semester",
-      "period": "2021",
-      "details": "Focused on Lean Management and German Business Culture."
+      "school": "Osnabrück University of Applied Sciences",
+      "degree": "Industrial Engineering (Exchange)",
+      "period": "2024",
+      "details": "Osnabrück, Germany"
     }
   ],
   "experience": [
     {
-      "company": "Bosch eBike Systems",
-      "role": "Data Analyst & Software Developer",
-      "period": "2022 - Present",
-      "description": "Leading data initiatives for eBike telemetry and internal dashboarding systems.",
+      "company": "Robert Bosch GmbH",
+      "role": "Data Analysis & Digital Transformation",
+      "period": "2025 - Present",
+      "description": "Design, maintenance, and automation of data pipelines for digitalization initiatives in the eBike domain.",
       "achievements": [
-        "Developed a Telemetry Data Visualization Dashboard using Python and Streamlit.",
-        "Optimized data pipelines reducing latency by 40%.",
-        "Collaborated with cross-functional teams to define key performance metrics."
+        "Development of Python scripts for automated data ingestion, cleaning, validation, and transformation.",
+        "Creation and optimization of SQL queries and database structures for efficient data processing.",
+        "Development of KPI dashboards and automated reports for performance monitoring."
       ]
     },
     {
-      "company": "NOWEDA Logistics",
-      "role": "Logistics Analyst (Intern)",
-      "period": "2021",
-      "description": "Analyzed warehouse throughput and logistics bottleneck removal.",
+      "company": "Robert Bosch GmbH",
+      "role": "Bachelor Thesis – Automated Visualization of eBike System Data",
+      "period": "2025",
+      "description": "End-to-end prototype for automated visualization of MF4 telemetry data.",
       "achievements": [
-        "Identified 15% efficiency gain in sorting lines.",
-        "Created dynamic Excel tools for daily volume forecasting."
+        "Design and implementation of scalable database schemas for large telemetry files.",
+        "Development of data validation and cleansing pipelines.",
+        "Integration of proof-of-concept into existing Bosch workflows."
       ]
     },
     {
-      "company": "Forstec",
-      "role": "Process Optimization Consultant",
-      "period": "2020",
-      "description": "Consulted on manufacturing line layouts for aluminum parts.",
+      "company": "Robert Bosch GmbH",
+      "role": "Intern – Project Management & Technical Support",
+      "period": "2024 - 2025",
+      "description": "Support of development projects through data-based analysis and reporting.",
       "achievements": [
-        "Reduced cycle time by 10% using Arena simulation models."
+        "System data analysis using Excel, Python, and internal Bosch tools.",
+        "Execution and tracking of ECU software updates using Monaco.",
+        "Creation of structured reports, process documentation, and project KPIs."
+      ]
+    },
+    {
+      "company": "NOWEDA Apothekergenossenschaft eG",
+      "role": "Working Student – Goods Receiving & Process Data Management",
+      "period": "2024",
+      "description": "Recording and processing of incoming goods data in ERP systems.",
+      "achievements": [
+        "Analysis of process data to identify optimization potential.",
+        "Ensuring data quality and traceability in pharmaceutical logistics."
+      ]
+    },
+    {
+      "company": "Forstec Machinery",
+      "role": "Intern – Process Modeling & Optimization",
+      "period": "2023",
+      "description": "Modeling and analysis of logistical and operational processes.",
+      "achievements": [
+        "Support in KPI definition and process data evaluation.",
+        "Creation of visual process models and technical documentation."
+      ]
+    },
+    {
+      "company": "Albatros Industrial Solutions",
+      "role": "Assistant – Operations & Sales",
+      "period": "2018 - 2022",
+      "description": "Operational and administrative process support and market analysis.",
+      "achievements": [
+        "Market and data analysis for sales and marketing.",
+        "Contribution to digitalization initiatives and basic front-end development."
       ]
     }
   ]

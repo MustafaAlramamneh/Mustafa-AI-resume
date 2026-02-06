@@ -1,54 +1,43 @@
 [
   {
     "id": "p1",
-    "title": "Krone Gruppe CO2 Emissions Analysis",
+    "title": "Automated Visualization of eBike System Data",
     "category": "Data Analysis",
     "tags": [
-      "Sustainability",
       "Python",
-      "Data Viz"
-    ],
-    "shortOutcome": "Reduced reporting time by 60% using automated carbon footprint calculators.",
-    "fullDescription": "An end-to-end data analysis project focused on tracking and reporting CO2 emissions for Krone Gruppe's logistics fleet. Developed a Python-based engine to ingest fleet telemetry and output audit-ready reports.",
-    "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1000"
-  },
-  {
-    "id": "p2",
-    "title": "GJU Quality Control System",
-    "category": "Automation",
-    "tags": [
-      "Quality Control",
       "SQL",
-      "Manufacturing"
+      "Flask",
+      "Pandas"
     ],
-    "shortOutcome": "Automated defect logging leading to a 20% reduction in waste.",
-    "fullDescription": "Designed a robust SQL-backed Quality Control system for the university's lab factory. Included real-time defect tracking and automated alerts for supervisors.",
-    "image": "https://images.unsplash.com/photo-1565514020176-db7936a29d5b?auto=format&fit=crop&q=80&w=1000"
-  },
-  {
-    "id": "p3",
-    "title": "Bosch Telemetry Visualization",
-    "category": "Dashboards",
-    "tags": [
-      "Power BI",
-      "Python",
-      "IoT"
-    ],
-    "shortOutcome": "Real-time visibility into eBike performance across 5 regions.",
-    "fullDescription": "A high-fidelity dashboard developed at Bosch to monitor eBike sensors. Leveraged IoT streams to provide actionable insights for hardware engineers.",
+    "shortOutcome": "End-to-end solution for automated analysis of telemetry data.",
+    "fullDescription": "End-to-end solution for automated analysis and visualization of MF4 telemetry data including database design, Flask API, and KPI dashboards. This project served as a proof of concept for industrial data visualization.",
     "image": "https://images.unsplash.com/photo-1558346490-a72e53ae2d4f?auto=format&fit=crop&q=80&w=1000"
   },
   {
-    "id": "p4",
-    "title": "Production Planning & Scheduling",
-    "category": "ERP",
+    "id": "p2",
+    "title": "Partner Portal Platform",
+    "category": "Dashboards",
     "tags": [
-      "SAP",
-      "Excel",
-      "Optimization"
+      "Next.js",
+      "SQL",
+      "API",
+      "ShadCN UI"
     ],
-    "shortOutcome": "Optimized production schedules for a local manufacturer.",
-    "fullDescription": "Implemented an advanced planning system that integrated with SAP ERP to streamline manufacturing steps, reducing idle time by 15%.",
-    "image": "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&q=80&w=1000"
+    "shortOutcome": "Web-based platform for managing partners and data flows.",
+    "fullDescription": "A comprehensive web-based platform for managing partners, products, roles, and data flows. Features include interactive dashboards, role-based access control, and real-time analytics.",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1000"
+  },
+  {
+    "id": "p3",
+    "title": "Automated Reporting Tools",
+    "category": "Automation",
+    "tags": [
+      "Python",
+      "Pandas",
+      "SQL"
+    ],
+    "shortOutcome": "Python-based automation for KPI evaluation and reporting.",
+    "fullDescription": "Developed Python-based automation scripts for KPI evaluation, visualization, and weekly report generation. The tools output professional PDF and HTML reports, saving hours of manual work.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1000"
   }
 ]
