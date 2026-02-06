@@ -6,7 +6,7 @@ import { ChatMessage, MCPToolNames } from "../types";
 // In a real-world application (like Next.js), you would use an environment variable
 // (e.g., process.env.NEXT_PUBLIC_API_KEY) and route API calls through a backend
 // to protect the key. For this demo, the user must provide their own key.
-const API_KEY = process.env.API_KEY || "";
+const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || "";
 
 /**
  * Handles the conversation logic with Mahmood's Agent.
@@ -56,8 +56,8 @@ export const sendMessageStreamToAgent = async (
               type: Type.OBJECT,
               properties: Object.entries(d.parameters.properties).reduce((acc, [key, val]: any) => {
                 // Simplified schema for browser compatibility
-                 acc[key] = { type: 'string', description: val.description };
-                 return acc;
+                acc[key] = { type: 'string', description: val.description };
+                return acc;
               }, {} as any),
               required: d.parameters.required
             }

@@ -137,7 +137,7 @@ const App: React.FC = () => {
                       <div className="aspect-[2/3] rounded-[2rem] overflow-hidden glass p-4 relative group">
                         <div className="absolute inset-0 bg-gradient-to-tr from-cyan-500/20 to-blue-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
                         <img
-                          src="https://drive.google.com/uc?export=view&id=1NXMk_bndGAwOYzBYKZVQWgqhciTGeoHs"
+                          src="/profile.png"
                           alt="Mahmood Alshahahdi"
                           className="w-full h-full object-contain rounded-[1.5rem] transition-all duration-700 group-hover:scale-105"
                         />
@@ -311,7 +311,7 @@ const App: React.FC = () => {
                     >
                       <div className="aspect-[2/3] w-full">
                         <img
-                          src="https://drive.google.com/uc?export=view&id=1NXMk_bndGAwOYzBYKZVQWgqhciTGeoHs"
+                          src="/profile.png"
                           alt="Mahmood Alshahahdi"
                           className="rounded-2xl w-full h-full object-contain"
                         />
