@@ -1,0 +1,81 @@
+
+{
+  "name": "Mahmood Alshahahdi",
+  "title": "Industrial Engineer / Data Analyst",
+  "location": "Stuttgart, Germany",
+  "summary": "Dynamic and resourceful professional with a background in Industrial Engineering. Specialized in process optimization, data-driven decision-making, and efficiency innovation. Currently targeting Process/Data Analyst roles with expertise in SQL, Python/R, and advanced KPI dashboarding.",
+  "stats": {
+    "yearsExperience": 4,
+    "certificatesCount": 8,
+    "projectsCompleted": 15
+  },
+  "contact": {
+    "email": "Mahmoud.shahahdi98@icloud.com",
+    "phone": "+4915560019198",
+    "linkedin": "linkedin.com/in/mahmood-alshahahdi",
+    "github": "github.com/mahmood-ash"
+  },
+  "languages": [
+    { "name": "Arabic", "level": "Native" },
+    { "name": "German", "level": "B2" },
+    { "name": "English", "level": "C2" },
+    { "name": "Turkish", "level": "Conversational" }
+  ],
+  "tools": [
+    "Python", "SQL", "Illustrator", "SAP ERP", "Arena Simulation", 
+    "Excel", "Word", "PowerPoint", "AutoCAD", "Power BI", "R", 
+    "MATLAB", "Neo4j", "n8n", "Power Automate"
+  ],
+  "certifications": [
+    "SAP ERP Certified Associate",
+    "AutoCAD Professional",
+    "Supply Chain Management Specialist",
+    "Quality Management (Six Sigma Green Belt)"
+  ],
+  "education": [
+    {
+      "school": "German Jordanian University (GJU)",
+      "degree": "B.Sc. in Industrial Engineering",
+      "period": "2018 - 2023",
+      "details": "Major in Production Systems & Logistics."
+    },
+    {
+      "school": "Hochschule Osnabrück",
+      "degree": "Exchange Semester",
+      "period": "2021",
+      "details": "Focused on Lean Management and German Business Culture."
+    }
+  ],
+  "experience": [
+    {
+      "company": "Bosch eBike Systems",
+      "role": "Data Analyst & Software Developer",
+      "period": "2022 - Present",
+      "description": "Leading data initiatives for eBike telemetry and internal dashboarding systems.",
+      "achievements": [
+        "Developed a Telemetry Data Visualization Dashboard using Python and Streamlit.",
+        "Optimized data pipelines reducing latency by 40%.",
+        "Collaborated with cross-functional teams to define key performance metrics."
+      ]
+    },
+    {
+      "company": "NOWEDA Logistics",
+      "role": "Logistics Analyst (Intern)",
+      "period": "2021",
+      "description": "Analyzed warehouse throughput and logistics bottleneck removal.",
+      "achievements": [
+        "Identified 15% efficiency gain in sorting lines.",
+        "Created dynamic Excel tools for daily volume forecasting."
+      ]
+    },
+    {
+      "company": "Forstec",
+      "role": "Process Optimization Consultant",
+      "period": "2020",
+      "description": "Consulted on manufacturing line layouts for aluminum parts.",
+      "achievements": [
+        "Reduced cycle time by 10% using Arena simulation models."
+      ]
+    }
+  ]
+}

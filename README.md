@@ -1,1 +1,0 @@
-# Mahmood-AI-resume
