@@ -75,7 +75,7 @@ export const toolDefinitions = [
   },
   {
     name: MCPToolNames.GET_CONTACT,
-    description: "Returns Mustafa's contact details (email, phone, social links).",,
+    description: "Returns Mustafa's contact details (email, phone, social links).",
     parameters: { type: "OBJECT", properties: {}, required: [] }
   }
 ];
