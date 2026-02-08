@@ -11,7 +11,7 @@ const Hero: React.FC<{ profile: ProfileData; onAgentClick: () => void; onProject
       {/* Background elements */}
       <div className="absolute top-1/4 -left-20 w-72 h-72 bg-cyan-500/10 dark:bg-cyan-500/20 rounded-full blur-[120px]" />
       <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-blue-600/5 dark:bg-blue-600/10 rounded-full blur-[120px]" />
-      
+
       <div className="container mx-auto px-6 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <motion.div
@@ -24,7 +24,7 @@ const Hero: React.FC<{ profile: ProfileData; onAgentClick: () => void; onProject
             </span>
           </motion.div>
 
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.1 }}
@@ -33,30 +33,29 @@ const Hero: React.FC<{ profile: ProfileData; onAgentClick: () => void; onProject
             Mustafa <span className="text-cyan-500 dark:text-cyan-400">Alramamneh</span>
           </motion.h1>
 
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl md:text-2xl text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto leading-relaxed"
           >
             {profile.title} — {t('hero_location', { location: profile.location })}.
-            {t('hero_subtitle')}
           </motion.p>
 
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
-            <button 
+            <button
               onClick={onAgentClick}
               className="w-full sm:w-auto px-8 py-4 rounded-full bg-gray-900 dark:bg-white text-white dark:text-black font-bold flex items-center justify-center gap-2 hover:scale-105 transition-transform"
             >
               <Bot size={20} />
               {t('hero_button_agent')}
             </button>
-            <button 
+            <button
               onClick={onProjectsClick}
               className="w-full sm:w-auto px-8 py-4 rounded-full bg-gray-200/50 dark:bg-gray-900 border border-gray-300 dark:border-gray-800 text-gray-800 dark:text-white font-bold flex items-center justify-center gap-2 hover:bg-gray-200 dark:hover:bg-gray-800 transition-colors"
             >
@@ -67,7 +66,7 @@ const Hero: React.FC<{ profile: ProfileData; onAgentClick: () => void; onProject
         </div>
 
         {/* Proof of Work Strip */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.8 }}
