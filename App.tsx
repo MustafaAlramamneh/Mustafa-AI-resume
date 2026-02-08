@@ -358,7 +358,7 @@ const App: React.FC = () => {
                           <div className="space-y-2">
                             <p className="text-sm text-gray-700 dark:text-gray-300 flex items-center gap-2">
                               <div className="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse" />
-                              Stuttgart, DE
+                              Reutlingen, DE
                             </p>
                             <p className="text-sm text-gray-500">{t('about_context_availability')}</p>
                           </div>
@@ -547,7 +547,7 @@ const App: React.FC = () => {
                 <div className="w-10 h-10 rounded-lg bg-gray-200 dark:bg-gray-800 flex items-center justify-center font-bold text-cyan-500 dark:text-cyan-400">M</div>
                 <div>
                   <h5 className="font-bold text-gray-900 dark:text-gray-100">Mustafa Alramamneh</h5>
-                  <p className="text-[10px] text-gray-500 dark:text-gray-600 uppercase tracking-widest font-bold">Stuttgart, Germany</p>
+                  <p className="text-[10px] text-gray-500 dark:text-gray-600 uppercase tracking-widest font-bold">Reutlingen, Germany</p>
                 </div>
               </div>
 
