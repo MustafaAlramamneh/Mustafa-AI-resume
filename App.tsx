@@ -137,8 +137,8 @@ const App: React.FC = () => {
                       <div className="aspect-[2/3] rounded-[2rem] overflow-hidden glass p-4 relative group">
                         <div className="absolute inset-0 bg-gradient-to-tr from-cyan-500/20 to-blue-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
                         <img
-                          src="/max-profile.jpg"
-                          alt="Mahmood Alshahahdi"
+                          src="/profile.png"
+                          alt="Mustafa Alramamneh"
                           className="w-full h-full object-contain rounded-[1.5rem] transition-all duration-700 group-hover:scale-105"
                         />
                         <div className="absolute bottom-6 start-6 end-6">
@@ -311,8 +311,8 @@ const App: React.FC = () => {
                     >
                       <div className="aspect-[2/3] w-full">
                         <img
-                          src="/max-profile.jpg"
-                          alt="Mahmood Alshahahdi"
+                          src="/profile.png"
+                          alt="Mustafa Alramamneh"
                           className="rounded-2xl w-full h-full object-contain"
                         />
                       </div>
@@ -546,7 +546,7 @@ const App: React.FC = () => {
               <div className="flex items-center gap-4">
                 <div className="w-10 h-10 rounded-lg bg-gray-200 dark:bg-gray-800 flex items-center justify-center font-bold text-cyan-500 dark:text-cyan-400">M</div>
                 <div>
-                  <h5 className="font-bold text-gray-900 dark:text-gray-100">Mahmood Alshahahdi</h5>
+                  <h5 className="font-bold text-gray-900 dark:text-gray-100">Mustafa Alramamneh</h5>
                   <p className="text-[10px] text-gray-500 dark:text-gray-600 uppercase tracking-widest font-bold">Stuttgart, Germany</p>
                 </div>
               </div>

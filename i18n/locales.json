@@ -76,7 +76,7 @@
 
   "footer_nav_title": { "en": "Navigation", "de": "Navigation", "ar": "التنقل", "tr": "Navigasyon" },
   "footer_connect_title": { "en": "Connect", "de": "Verbinden", "ar": "تواصل", "tr": "Bağlan" },
-  "footer_copyright": { "en": "© 2024 Mahmood Alshahahdi. All Rights Reserved.", "de": "© 2024 Mahmood Alshahahdi. Alle Rechte vorbehalten.", "ar": "© 2024 محمود الشحاحدي. جميع الحقوق محفوظة.", "tr": "© 2024 Mahmood Alshahahdi. Tüm Hakları Saklıdır." },
+  "footer_copyright": { "en": "© 2024 Mustafa Alramamneh. All Rights Reserved.", "de": "© 2024 Mustafa Alramamneh. Alle Rechte vorbehalten.", "ar": "© 2024 مصطفى الرمامنة. جميع الحقوق محفوظة.", "tr": "© 2024 Mustafa Alramamneh. Tüm Hakları Saklıdır." },
   
   "error_loading_title": { "en": "Failed to load portfolio data.", "de": "Portfolio-Daten konnten nicht geladen werden.", "ar": "فشل تحميل بيانات المحفظة.", "tr": "Portföy verileri yüklenemedi." },
 

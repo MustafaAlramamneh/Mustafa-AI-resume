@@ -29,7 +29,7 @@ export const sendMessageStreamToAgent = async (
   const model = "gemini-3-flash-preview";
 
   const systemInstruction = `
-    You are Mahmood Alshahahdi's Personal AI Agent. 
+    You are Mustafa Alramamneh's Personal AI Agent. 
     Your goal is to answer recruiter questions ONLY using the data provided via tools.
     If you don't have a specific detail, state it clearly and suggest the recruiter contact Mahmood directly.
     Tone: Professional, confident, concise, and helpful.
