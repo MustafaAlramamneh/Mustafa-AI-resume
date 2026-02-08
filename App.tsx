@@ -282,7 +282,7 @@ const App: React.FC = () => {
                               <h4 className="text-xl font-bold group-hover:text-blue-500 dark:group-hover:text-blue-400 transition-colors">{edu.degree}</h4>
                               <p className="text-gray-600 dark:text-gray-400">{edu.school}</p>
                             </div>
-                            <span className="px-4 py-1.5 rounded-full bg-black/5 dark:bg-white/5 border border-black/10 dark:border-white/10 text-xs font-mono text-gray-600 dark:text-gray-500">{edu.period}</span>
+                            <span className="px-4 py-1.5 rounded-full bg-black/5 dark:bg-white/5 border border-black/10 dark:border-white/10 text-xs font-mono text-gray-600 dark:text-gray-500 whitespace-nowrap">{edu.period}</span>
                           </div>
                           <p className="text-gray-600 dark:text-gray-500 text-sm leading-relaxed border-t border-black/5 dark:border-white/5 pt-6">{edu.details}</p>
                         </motion.div>
