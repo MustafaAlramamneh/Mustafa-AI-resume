@@ -30,7 +30,7 @@ const Hero: React.FC<{ profile: ProfileData; onAgentClick: () => void; onProject
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-5xl md:text-8xl font-bold font-heading mb-8 tracking-tight leading-none"
           >
-            Mahmood <span className="text-cyan-500 dark:text-cyan-400">Alshahahdi</span>
+            Mustafa <span className="text-cyan-500 dark:text-cyan-400">Alramamneh</span>
           </motion.h1>
 
           <motion.p 

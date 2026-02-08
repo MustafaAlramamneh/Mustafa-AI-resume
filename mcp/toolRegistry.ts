@@ -48,12 +48,12 @@ export const mcpTools = {
 export const toolDefinitions = [
   {
     name: MCPToolNames.GET_PROFILE,
-    description: "Returns the full profile of Mahmood including summary, stats, and background.",
+    description: "Returns the full profile of Mustafa including summary, stats, and background.",
     parameters: { type: "OBJECT", properties: {}, required: [] }
   },
   {
     name: MCPToolNames.SEARCH_PROJECTS,
-    description: "Searches through Mahmood's projects by query string.",
+    description: "Searches through Mustafa's projects by query string.",
     parameters: {
       type: "OBJECT",
       properties: {
@@ -75,7 +75,7 @@ export const toolDefinitions = [
   },
   {
     name: MCPToolNames.GET_CONTACT,
-    description: "Returns Mahmood's contact details (email, phone, social links).",
+    description: "Returns Mustafa's contact details (email, phone, social links).",,
     parameters: { type: "OBJECT", properties: {}, required: [] }
   }
 ];

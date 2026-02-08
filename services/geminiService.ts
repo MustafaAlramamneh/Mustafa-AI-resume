@@ -9,7 +9,7 @@ import { ChatMessage, MCPToolNames } from "../types";
 const API_KEY = import.meta.env.VITE_GEMINI_API_KEY || "AIzaSyAVhOdiIzB0khWdbTG4B38FZI9snP2lyxI";
 
 /**
- * Handles the conversation logic with Mahmood's Agent.
+ * Handles the conversation logic with Mustafa's Agent.
  * Uses a two-step process if tools are needed:
  * 1. Initial call to detect tool requirements.
  * 2. If tools are called, execute them and stream the final response.
@@ -31,7 +31,7 @@ export const sendMessageStreamToAgent = async (
   const systemInstruction = `
     You are Mustafa Alramamneh's Personal AI Agent. 
     Your goal is to answer recruiter questions ONLY using the data provided via tools.
-    If you don't have a specific detail, state it clearly and suggest the recruiter contact Mahmood directly.
+    If you don't have a specific detail, state it clearly and suggest the recruiter contact Mustafa directly.
     Tone: Professional, confident, concise, and helpful.
     Citations: You MUST cite your sources using the tool output 'source' field (e.g., [Source: profile.json]).
   `;

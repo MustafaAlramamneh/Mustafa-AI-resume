@@ -205,7 +205,7 @@ const App: React.FC = () => {
               >
                 <div className="flex flex-col sm:flex-row items-center justify-between gap-6 mb-20">
                   <h2 className="text-5xl font-bold font-heading tracking-tight">{t('resume_title_1')} <span className="text-cyan-400">{t('resume_title_2')}</span></h2>
-                  <a href="/Mahmood_Alshahahdi_Resume.pdf" download target="_blank" rel="noopener noreferrer">
+                  <a href="/Mustafa_Alramamneh_Resume.pdf" download target="_blank" rel="noopener noreferrer">
                     <button className="w-full sm:w-auto flex items-center justify-center gap-3 px-8 py-4 rounded-full bg-cyan-500 text-white font-bold hover:scale-105 transition-all shadow-xl shadow-cyan-500/20 active:scale-95">
                       <Download size={20} />
                       {t('resume_download_button')}

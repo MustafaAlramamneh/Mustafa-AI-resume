@@ -35,7 +35,7 @@ const Navbar: React.FC<{ activeTab: string; setActiveTab: (t: string) => void }>
                 <path d="M4 18V6L12 14L20 6V18H18V9L12 15L6 9V18H4Z"/>
             </svg>
           </div>
-          <span className="hidden sm:inline dark:text-white text-gray-900">Mahmood.A</span>
+          <span className="hidden sm:inline dark:text-white text-gray-900">Mustafa.A</span>
         </div>
 
         {/* Desktop Links */}
